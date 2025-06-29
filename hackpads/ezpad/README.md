@@ -1,12 +1,9 @@
 # ezpad
 
-by Eddy Zhao (@eddyzow)
-
-* Note: the full CAD file was greater than 25 MB and thus I had to zip it for github to allow it onto the servers. otherwise all other files should follow the correct structure
-
-![image](https://github.com/user-attachments/assets/6eca65f7-fa06-414b-b9ac-68b172981000)
-
 A macropad (mini-keyboard) with 9 mechanical keys, 0.91" OLED screen, and rotary encoder. Custom-built and wired PCB. Powered by a Seeed XIAO RP2040.
+
+![image](https://github.com/user-attachments/assets/55f2257f-72c3-4de3-9b10-99293f8d9fed)
+![image](https://github.com/user-attachments/assets/6eca65f7-fa06-414b-b9ac-68b172981000)
 
 This project was really fun to work on! I learned a lot about how key matrices work and expanded my knowledge of electronics along the way. I had to rewire the PCB three times because I had accidentally flipped the switch sockets to the front, then I used the wrong socket, etc... it was a painful process. However, after many failed attempts, I finally created my very first PCB! I then put it in a case that I created on Onshape. The rotary encoder turns the volume up and down, but unfortunately due to pin constraints the button press does not work.
 
@@ -26,7 +23,6 @@ This is my submission for Hackpad V3 and my second submission for Highway! I'm a
 - 9x DSA Keycaps
 - 9x 1N4148 Diodes
 - 9x Kailh Hotswap Sockets
-- 9x NeoPixels (SK6812 MINI-E LEDs)
 - 1x Seeed XIAO RP2040
 - 1x EC11 Rotary Encoder Switch
 - 1x 3D Printed Case
